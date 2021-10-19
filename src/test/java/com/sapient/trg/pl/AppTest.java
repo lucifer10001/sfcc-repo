@@ -35,110 +35,110 @@ class AppTest {
 		//System.out.println("after each hello");
 	}
 
-	@Test
-	void testIsPerfectNumberForSuccess() {
-		assertEquals(25,app.isPerfectNumber(5));
-		//System.out.println("hello");
-		//fail("Not yet implemented");
-	}
-	@Test
-	void testIsPerfectNumberForFailure() {
-		assertNotEquals(24,app.isPerfectNumber(5));
-		//System.out.println("hello");
-		//fail("Not yet implemented");
-	}
-	@Test
-	void testCubeForSuccess() {
-		assertEquals(125,app.cube(5));
-		//System.out.println("hello");
-		//fail("Not yet implemented");
-	}
-	@Test
-	void testCubeForFailure() {
-		assertNotEquals(24,app.cube(5));
-		//System.out.println("hello");
-		//fail("Not yet implemented");
-	}
 // 	@Test
-// 	void testisPerfectNumberForSuccess() {
-// 		assertEquals(true,app.isPerfectNumber(6));
+// 	void testIsPerfectNumberForSuccess() {
+// 		assertEquals(25,app.isPerfectNumber(5));
+// 		//System.out.println("hello");
+// 		//fail("Not yet implemented");
 // 	}
-	@Test
-	void testisPerfectNumberForFailure() {
-		assertNotEquals(true,app.isPerfectNumber(5));
-	}
 // 	@Test
-// 	void testFactorialForSuccess() {
-// 		assertEquals(125,app.factorial(5));
+// 	void testIsPerfectNumberForFailure() {
+// 		assertNotEquals(24,app.isPerfectNumber(5));
+// 		//System.out.println("hello");
+// 		//fail("Not yet implemented");
 // 	}
-	@Test
-	void testFactorialForFailure() {
-		assertNotEquals(124,app.factorial(5));
-	}
-	@Test
-	void testIsPrimeForSuccess() {
-		assertEquals(true,app.isPrime(5));
-	}
-	@Test
-	void testIsPrimeForFailure() {
-		assertNotEquals(false,app.isPrime(5));
-	}
 // 	@Test
-// 	void testsumOfPrimesForSuccess() {
-// 		assertEquals(25,app.sumOfPrimes(5));
+// 	void testCubeForSuccess() {
+// 		assertEquals(125,app.cube(5));
+// 		//System.out.println("hello");
+// 		//fail("Not yet implemented");
 // 	}
-	@Test
-	void testsumOfPrimesForFailure() {
-		assertNotEquals(24,app.sumOfPrimes(5));
-	}
-	@Test
-	void testisArmstrongNumberForSuccess() {
-		assertEquals(true,app.isArmstrongNumber(153));
-	}
-	@Test
-	void testisArmstrongNumberForFailure() {
-		assertNotEquals(true,app.isArmstrongNumber(121));
-	}
-	@Test
-	void testreverseNumberForSuccess() {
-		assertEquals(52,app.reverseNumber(25));
-	}
-	@Test
-	void testreverseNumberForFailure() {
-		assertNotEquals(24,app.reverseNumber(25));
-	}
-	@Test
-	void testdecimalToBinaryForSuccess() {
-		assertEquals(101,app.decimalToBinary(5));
-	}
-	@Test
-	void testdecimalToBinaryForFailure() {
-		assertNotEquals(101,app.decimalToBinary(6));
-	}
-	@Test
-	void testbinaryToDecimalForSuccess() {
-		assertEquals(5,app.binaryToDecimal(101));
-	}
-	@Test
-	void testbinaryToDecimalForFailure() {
-		assertNotEquals(24,app.binaryToDecimal(101));
-	}
 // 	@Test
-// 	void testgetSumOfNfibosForSuccess() {
-// 		assertEquals(6,app.getSumOfNfibos(6));
+// 	void testCubeForFailure() {
+// 		assertNotEquals(24,app.cube(5));
+// 		//System.out.println("hello");
+// 		//fail("Not yet implemented");
 // 	}
-	@Test
-	void testgetSumOfNfibosForFailure() {
-		assertNotEquals(15,app.getSumOfNfibos(6));
-	}
-	@Test
-	void testisPalindromeNumberForSuccess() {
-		assertEquals(true,app.isPalindromeNumber(1221));
-	}
-	@Test
-	void testisPalindromeNumberForFailure() {
-		assertNotEquals(true,app.isPalindromeNumber(523));
-	}
+// // 	@Test
+// // 	void testisPerfectNumberForSuccess() {
+// // 		assertEquals(true,app.isPerfectNumber(6));
+// // 	}
+// 	@Test
+// 	void testisPerfectNumberForFailure() {
+// 		assertNotEquals(true,app.isPerfectNumber(5));
+// 	}
+// // 	@Test
+// // 	void testFactorialForSuccess() {
+// // 		assertEquals(125,app.factorial(5));
+// // 	}
+// 	@Test
+// 	void testFactorialForFailure() {
+// 		assertNotEquals(124,app.factorial(5));
+// 	}
+// 	@Test
+// 	void testIsPrimeForSuccess() {
+// 		assertEquals(true,app.isPrime(5));
+// 	}
+// 	@Test
+// 	void testIsPrimeForFailure() {
+// 		assertNotEquals(false,app.isPrime(5));
+// 	}
+// // 	@Test
+// // 	void testsumOfPrimesForSuccess() {
+// // 		assertEquals(25,app.sumOfPrimes(5));
+// // 	}
+// 	@Test
+// 	void testsumOfPrimesForFailure() {
+// 		assertNotEquals(24,app.sumOfPrimes(5));
+// 	}
+// 	@Test
+// 	void testisArmstrongNumberForSuccess() {
+// 		assertEquals(true,app.isArmstrongNumber(153));
+// 	}
+// 	@Test
+// 	void testisArmstrongNumberForFailure() {
+// 		assertNotEquals(true,app.isArmstrongNumber(121));
+// 	}
+// 	@Test
+// 	void testreverseNumberForSuccess() {
+// 		assertEquals(52,app.reverseNumber(25));
+// 	}
+// 	@Test
+// 	void testreverseNumberForFailure() {
+// 		assertNotEquals(24,app.reverseNumber(25));
+// 	}
+// 	@Test
+// 	void testdecimalToBinaryForSuccess() {
+// 		assertEquals(101,app.decimalToBinary(5));
+// 	}
+// 	@Test
+// 	void testdecimalToBinaryForFailure() {
+// 		assertNotEquals(101,app.decimalToBinary(6));
+// 	}
+// 	@Test
+// 	void testbinaryToDecimalForSuccess() {
+// 		assertEquals(5,app.binaryToDecimal(101));
+// 	}
+// 	@Test
+// 	void testbinaryToDecimalForFailure() {
+// 		assertNotEquals(24,app.binaryToDecimal(101));
+// 	}
+// // 	@Test
+// // 	void testgetSumOfNfibosForSuccess() {
+// // 		assertEquals(6,app.getSumOfNfibos(6));
+// // 	}
+// 	@Test
+// 	void testgetSumOfNfibosForFailure() {
+// 		assertNotEquals(15,app.getSumOfNfibos(6));
+// 	}
+// 	@Test
+// 	void testisPalindromeNumberForSuccess() {
+// 		assertEquals(true,app.isPalindromeNumber(1221));
+// 	}
+// 	@Test
+// 	void testisPalindromeNumberForFailure() {
+// 		assertNotEquals(true,app.isPalindromeNumber(523));
+// 	}
 	
 
 }
