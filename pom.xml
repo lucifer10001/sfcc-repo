@@ -5,7 +5,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>my-math-project</name>
   
-  <dependencies>
+ <dependencies>
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
@@ -43,6 +43,7 @@
 			</plugin>
 		</plugins>
 	</build>
+
 
 
 </project>
